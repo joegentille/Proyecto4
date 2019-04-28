@@ -52,3 +52,35 @@ body{
     margin-right: 20px;
     font-weight: normal;
 }
+
+/*** MENU CONTRAIDO ***/
+
+.barra-lateral{
+    min-width: 80px;
+}
+
+.barra-lateral .menu a{
+    display: block;
+    text-align: center;
+}
+
+.barra-lateral .menu a:hover{
+    background: #2d61c2;
+    transition: none;
+    padding-left: 0;
+    padding-right: 0;    
+}
+
+.barra-lateral .menu a:hover span{
+    display: block;
+}
+
+.barra-lateral .menu a span{
+    display: none;
+}
+
+.barra-lateral .menu a i{
+    margin: 0;
+}
+
+/*** ------ ------ ***/
