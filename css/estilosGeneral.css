@@ -68,7 +68,8 @@ body{
     background: #2d61c2;
     transition: none;
     padding-left: 0;
-    padding-right: 0;    
+    padding-right: 0;
+    translate: 
 }
 
 .barra-lateral .menu a:hover span{
